@@ -3,7 +3,7 @@ import Button from '../components/ui/Button';
 const UserList = (props) => {
   const { userList, addUserHandler, clearUsersHandler, inputName, inputNameVisited, inputError } = props;
 
-  const addButtonDisable = (!inputNameVisited && !inputName) || (inputNameVisited && inputError);
+  const addButtonDisable = (!inputNameVisited && !inputName) || (inputNameVisited && (!inputName || inputError));
 
   // I added the disabled attribute to the button to disable it when there's an error and on initial page load (when the name input box is empty).
   // It's one extra level of validation that prevents erroneous submission as well as being a clear and visible indicator.

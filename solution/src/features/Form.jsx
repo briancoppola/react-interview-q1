@@ -1,7 +1,7 @@
 const Form = (props) => {
   const { locations, inputNameHandler, setInputNameVisited, inputLocation, inputError } = props;
 
-  // Organizing form elements by groups, as it's a common convention I'm seeing these days.
+  // I organized form elements by groups as it's a common convention I'm seeing these days.
   // It's a nice way to break things up, and makes it easy to style.
 
   return (
