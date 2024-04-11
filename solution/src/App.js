@@ -23,7 +23,7 @@ function App() {
   const [inputNameVisited, setInputNameVisited] = useState(false);
   const [inputError, setInputError] = useState('');
 
-  // I used a ref for the inputLocation field instead of creating a state variable as this field don't need to initiate a component refresh every time the value is changed. We only need to grab this value when clicking 'Add.'
+  // I used a ref for the inputLocation field instead of creating a state variable as this field don't need to initiate a component refresh every time the value is changed. We only need to grab this value when the user clicks 'Add.'
   const inputLocation = useRef();
 
   // This uses the more modern async/await syntax for the API calls. It's a little cleaner than a chain of .then() methods.
@@ -76,7 +76,7 @@ function App() {
     checkName(newInputName);
   };
 
-  // I used some defensive coding with the conditional here to make sure there isn't an error when user is added.
+  // I used some defensive coding with the conditional here to make sure there isn't an error when a new user is added.
   const addUserHandler = () => {
     console.log(inputError);
     if (Object.keys(inputError).length === 0) {
