@@ -4,7 +4,7 @@ The initial coding assessment for a Web Developer role at Microsoft, forked from
 
 ## Description
 
-This is a simple list app with a form designed to add name/location combinations to the list, and it utilizes a combination of React, JavaScript, CSS, and HTML It is also designed to utilize the APIs provided to validate the name input field and pull a list of locations that populate the Location dropdown.
+This is a simple list app with a form designed to add name/location combinations to the list, and it utilizes a combination of React, JavaScript, CSS, and HTML. It is also designed to utilize the APIs provided to validate the name input field and pull a list of locations that populate the Location dropdown.
 
 ## Features
 
