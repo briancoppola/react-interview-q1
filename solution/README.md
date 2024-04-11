@@ -11,6 +11,7 @@ This is a simple list app with a form designed to add name/location combinations
 - User can add an unlimited number of Name/Location combinations
 - A 'Clear' button that will erase the list
 - Name input field validation that will throw an error if the field is empty and if the name in the field already exists in the list
+- Name input field continuously validates on the fly as the user types in the field
 - An 'Add' button that will disable if there are errors in the name input field
 - Two API calls that will validate the name input field and pull a list of locations that populate the Location dropdown
 - App is fully responsive and will shrink/expand and adjust padding/margins/gutters based on viewport width
