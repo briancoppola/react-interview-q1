@@ -12,12 +12,12 @@ This is a simple list app with a form designed to add name/location combinations
 - A 'Clear' button that will erase the list
 - Name input field validation that will throw an error if the field is empty and if the name in the field already exists in the list
 - An 'Add' button that will disable if there are errors in the name input field
-- Two API calls that
+- Two API calls that will validate the name input field and pull a list of locations that populate the Location dropdown
 - App is fully responsive and will shrink/expand and adjust padding/margins/gutters based on viewport width
 
 ## Screenshot
 
-![screenshot](https://github.com/briancoppola/hangman_react_ts/assets/58447266/01426a0b-c2f5-498a-9507-9a5a889f8d4b)
+![brians_user_list](https://github.com/briancoppola/react-interview-q1/assets/58447266/51a83baa-71da-4022-b3b4-5e7cb2016220)
 
 ## Setup
 
